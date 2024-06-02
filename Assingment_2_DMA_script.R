@@ -133,3 +133,6 @@ testing$pred_2 <- predict(tree3, newdata = testing, type = 'class')
 cm3<-xtabs(~y + pred_2, data=testing)
 cm3
 #accuracy: 0,825
+
+
+#testing if it words
